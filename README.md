@@ -1,3 +1,3 @@
-# project-story.github.io
+# Project Story
 
 Share open source projects
