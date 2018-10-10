@@ -7,15 +7,3 @@ order: 3
 {% for cat in site.categories %}
     <div>cat</div>
 {% endfor %}
-
-{% if site.categories.automobile-electronics == null %}
-  <div class="row ">Aucun projet disponible.</div>
-{% else %}
-  {% for post in site.categories.automobile-electronics %}
-  <div class="row">
-    <a href="{{ post.url }}">
-      {{ post.title }}
-    </a>
-  </div>
-  {% endfor %}
-{% endif %}
