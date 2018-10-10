@@ -9,7 +9,43 @@ body{
 }
 
 /**
+    @general-usage class
+*/
+
+
+/**
     @page: index.html
 */
 
 
+/**
+    @page: categories
+*/
+.ball{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.category-link{
+    margin-top: 2em;
+}
+
+.category-link:hover{
+    box-shadow: 0 0 2px grey;
+}
+
+.category-icon{
+    display: inline-block;
+}
+
+.category-icon i{
+    font-size: 6em;
+}
+
+.category-title{
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.8);
+}
