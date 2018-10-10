@@ -27,9 +27,8 @@
             <div class="row description justify-align">
                 {{ page.description }}
             </div>
-        </div>
-        <div class="row">
-            {{ content }}
+            
+            {{ content | markdownify }}
         </div>
         <div class="row"></div>
         
