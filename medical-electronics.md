@@ -6,10 +6,10 @@ order: 4
 ---
 
 {% if site.categories.medical == null %}
-    <div class="row"> Aucun projet disponible! </div>
+<div class="row"> Aucun projet disponible! </div>
 {% else %}
 <div class="row">
-    {% for post in site.categories.medical %}
+{% for post in site.categories.medical %}
 <div class="col m6 s12">
 <div class="card white">
 <div class="card-content grey-text text-darken-2">

@@ -6,10 +6,10 @@ order: 7
 ---
 
 {% if site.categories.domotic == null %}
-    <div class="row"> Aucun projet disponible! </div>
+<div class="row"> Aucun projet disponible! </div>
 {% else %}
 <div class="row">
-    {% for post in site.categories.domotic %}
+{% for post in site.categories.domotic %}
 <div class="col m6 s12">
 <div class="card white">
 <div class="card-content grey-text text-darken-2">

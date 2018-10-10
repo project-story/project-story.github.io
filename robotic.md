@@ -6,10 +6,10 @@ order: 6
 ---
 
 {% if site.categories.robotic == null %}
-    <div class="row"> Aucun projet disponible! </div>
+<div class="row"> Aucun projet disponible! </div>
 {% else %}
 <div class="row">
-    {% for post in site.categories.robotic %}
+{% for post in site.categories.robotic %}
 <div class="col m6 s12">
 <div class="card white">
 <div class="card-content grey-text text-darken-2">

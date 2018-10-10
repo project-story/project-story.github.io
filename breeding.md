@@ -6,10 +6,10 @@ order: 10
 ---
 
 {% if site.categories.breeding == null %}
-    <div class="row"> Aucun projet disponible! </div>
+<div class="row"> Aucun projet disponible! </div>
 {% else %}
 <div class="row">
-    {% for post in site.categories.breeding %}
+{% for post in site.categories.breeding %}
 <div class="col m6 s12">
 <div class="card white">
 <div class="card-content grey-text text-darken-2">

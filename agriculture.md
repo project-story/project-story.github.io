@@ -6,10 +6,10 @@ order: 9
 ---
 
 {% if site.categories.agriculture == null %}
-    <div class="row"> Aucun projet disponible! </div>
+<div class="row"> Aucun projet disponible! </div>
 {% else %}
 <div class="row">
-    {% for post in site.categories.agriculture %}
+{% for post in site.categories.agriculture %}
 <div class="col m6 s12">
 <div class="card white">
 <div class="card-content grey-text text-darken-2">
