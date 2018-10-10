@@ -6,7 +6,7 @@ order: 3
 ---
 
 {% for category in site.categories %}
-    <div>category[0]</div>
+    <div>{{ category[0] }}</div>
 {% endfor %}
 
 
