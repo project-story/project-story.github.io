@@ -1,3 +1,8 @@
 theme: jekyll-theme-cayman
 paginate: 1
-paginate_path: /cat/page:num/
+paginate_path: /category/page/:num/
+
+# Plugins
+gems :
+  - jekyll-paginate
+  - jekyll-paginate-categories
