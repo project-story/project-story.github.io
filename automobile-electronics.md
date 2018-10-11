@@ -35,7 +35,7 @@ order: 3
 <a href="#" class="grey-text darken-3">lire</a>
 <a href="#" class="grey-text darken-3">télécharger</a>
 </div>
-</div>                    
+</div>
 </div>
 </div>
     {% endfor %}
