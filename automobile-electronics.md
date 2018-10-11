@@ -4,12 +4,14 @@ title: Electronique automobile
 description: La majorité des véhicules qui sont produits de jours intègre de l'électronique afin d'assurer un meilleur confort pour l'utilisateur.
 order: 3
 ---
+{% assign nbArticle = 0 %}
 
 {% if site.categories.automobile == null %}
 <div class="row"> Aucun projet disponible! </div>
 {% else %}
 <div class="row">
 {% for post in site.categories.automobile %}
+{% assign nbArticle = nbArticle + 1 %}
 <div class="col m6 s12">
 <div class="card white">
 <div class="card-content grey-text text-darken-2">
