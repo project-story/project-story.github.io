@@ -5,6 +5,8 @@ description: The description of medical electronique
 order: 4
 ---
 
+{% assign nbArticle = 0 %}
+
 {% if site.categories.medical == null %}
 <div class="row"> Aucun projet disponible! </div>
 {% else %}

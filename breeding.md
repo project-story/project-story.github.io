@@ -5,6 +5,8 @@ description: The description of breedding
 order: 10
 ---
 
+{% assign nbArticle = 0 %}
+
 {% if site.categories.breeding == null %}
 <div class="row"> Aucun projet disponible! </div>
 {% else %}

@@ -5,6 +5,8 @@ description: The description of embedded system
 order: 5
 ---
 
+{% assign nbArticle = 0 %}
+
 {% if site.categories.embed == null %}
 <div class="row"> Aucun projet disponible! </div>
 {% else %}

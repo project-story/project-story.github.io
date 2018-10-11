@@ -5,6 +5,8 @@ description: The description of domotic
 order: 7
 ---
 
+{% assign nbArticle = 0 %}
+
 {% if site.categories.domotic == null %}
 <div class="row"> Aucun projet disponible! </div>
 {% else %}
