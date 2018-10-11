@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>Project Showcase</title>
+        <title>Project Showcase - {{ page.title }}</title>
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <!--Import Google Icon Font-->
@@ -14,22 +14,26 @@
     <body>
         <div class="container">
             <h1>Project Showcase</h1>
+            <!-- separator -->
+            <div class="separator">
+                <div class="ball teal"></div>
+                <div class="ball amber"></div>
+                <div class="ball pink"></div>
+            </div>
             
-            <div class="row">
-                <p class="flow-text">
-                    Une idée, un projet, un ingénieur, une solution
-                </p>
-                <p>
-                    Consultez les projets d'élève-ingénieur. Découvrez leurs 
-                    ingéniosité à solutionner les problèmes de tout les jours.
-                </p>
+            <div class="row"></div>
+            <div class="row"></div>
+            <h3>{{ page.title }}</h3>
+            <div class="row description justify-align">
+                {{ page.description }}
             </div>
-            <div class="row">
-                <a class="btn grey" href="categories.html">Consulter</a>
-            </div>
+            
+            {{ content | markdownify }}
         </div>
+        <div class="row"></div>
+        
         <footer class="center-align">
-            Copyright 2018
+            <div class="row">Copyright 2018</div>
         </footer>
     </boby>
 </html>

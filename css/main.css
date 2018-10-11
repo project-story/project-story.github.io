@@ -9,7 +9,68 @@ body{
 }
 
 /**
+    @general-usage class
+*/
+
+
+/**
     @page: index.html
 */
 
 
+/**
+    @page: categories
+*/
+.ball{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.category-link{
+    margin-top: 2em;
+}
+
+.category-link:hover{
+    box-shadow: 0 0 2px grey;
+}
+
+.category-icon{
+    display: inline-block;
+}
+
+.category-icon i{
+    font-size: 6em;
+}
+
+.category-title{
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/**
+    @page: a category template to display the list of projects
+*/
+.project-h{
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.keyword{
+    display: inline-block;
+/*    border: 1px solid gray; */
+    line-height: 20px;
+    padding: 5px;
+    margin-top: 5px;
+    background: #ffe082;
+    border-radius: 15px;
+}
+
+.author{
+    display: inline-block;
+    padding: 5px;
+    margin-top: 5px;
+}
