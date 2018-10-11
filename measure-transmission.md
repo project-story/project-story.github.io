@@ -4,6 +4,7 @@ title: Mesure & Transmission
 description: The description of measure and transmission
 order: 8
 ---
+{% assign nbArticle = 0 %}
 
 {% if site.categories.met == null %}
 <div class="row"> Aucun projet disponible! </div>

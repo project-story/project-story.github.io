@@ -5,6 +5,8 @@ description: The description of robotics
 order: 6
 ---
 
+{% assign nbArticle = 0 %}
+
 {% if site.categories.robotic == null %}
 <div class="row"> Aucun projet disponible! </div>
 {% else %}

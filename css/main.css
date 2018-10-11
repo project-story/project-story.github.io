@@ -30,6 +30,7 @@ body{
 }
 
 .category-link{
+    position: relative;
     margin-top: 2em;
 }
 
@@ -48,6 +49,17 @@ body{
 .category-title{
     font-size: 1em;
     color: rgba(0, 0, 0, 0.8);
+}
+
+.project-article-badge{
+    width: 40%;
+    line-height: 30px;
+    margin: 15px auto 0 auto;
+    border-radius: 15px;
+}
+
+#link a{
+    margin-right: 1.2em;
 }
 
 /**

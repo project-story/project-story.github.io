@@ -5,6 +5,8 @@ description: The description of agriculture
 order: 9
 ---
 
+{% assign nbArticle = 0 %}
+
 {% if site.categories.agriculture == null %}
 <div class="row"> Aucun projet disponible! </div>
 {% else %}

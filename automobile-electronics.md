@@ -2,6 +2,7 @@
 layout: category
 title: Electronique automobile
 description: La majorité des véhicules qui sont produits de jours intègre de l'électronique afin d'assurer un meilleur confort pour l'utilisateur.
+category: automobile
 order: 3
 ---
 
@@ -9,7 +10,7 @@ order: 3
 <div class="row"> Aucun projet disponible! </div>
 {% else %}
 <div class="row">
-{% for post in site.categories.automobile %}
+{% for post in paginator.posts %}
 <div class="col m6 s12">
 <div class="card white">
 <div class="card-content grey-text text-darken-2">
@@ -34,7 +35,7 @@ order: 3
 <a href="#" class="grey-text darken-3">lire</a>
 <a href="#" class="grey-text darken-3">télécharger</a>
 </div>
-</div>                    
+</div>
 </div>
 </div>
     {% endfor %}
