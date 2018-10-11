@@ -11,7 +11,13 @@ body{
 /**
     @general-usage class
 */
+.reference{ position:relative; }
+.shift-right{ padding-right: 10em; }
+.justify{ text-align: justify; }
 
+/* padding */
+.padding-5{ padding: 5px; } 
+.padding-10{ padding: 10px; } 
 
 /**
     @page: index.html
@@ -86,3 +92,35 @@ body{
     padding: 5px;
     margin-top: 5px;
 }
+
+/**
+    @page: post.html
+*/
+.author-img{
+    display: inline-block;
+}
+
+.level-ball{
+    position:absolute;
+    left: -65px;
+    display:inline-block;
+    width:50px;
+    height:50px;
+    padding-top: 12px;
+    border-radius: 25px;
+}
+
+.sidebar{
+    position:absolute;
+    top: 0px;
+    bottom:0px;
+    left: -50px;
+    width: 20px;
+    background:rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.description{
+    line-height: 2em;
+}
+
