@@ -58,6 +58,10 @@ body{
     border-radius: 15px;
 }
 
+#link a{
+    margin-right: 1.2em;
+}
+
 /**
     @page: a category template to display the list of projects
 */
