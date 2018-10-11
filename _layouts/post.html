@@ -36,24 +36,20 @@
                     <i class="material-icons">book</i>
                 </span>
                  <!-- end -->
-                <h3>Project title</h3>
-                <div class="row">{{ var }}</div>
+                <h3>{{ page.title }}</h3>
+                <div class="row"></div>
                 
                 <div class="row center">
-                    <div class="padding-10"><h5>Département de Génie Electrique, EPAC</h5></div>
+                    <div class="padding-10"><h5>{{ page.department }}, {{ page.school }}</h5></div>
                     <div class="row">
+                        {% for author in page.authors %}
                         <div class="author-img col l6 m12 s12">
-                            <img class="circle" src="../images/test.jpg" />
+                            <img class="circle" src="/images/test.jpg" />
                             <div class="author-info center">
-                                <span>Doe</span> <span>John</span>
+                                <span>author</span>
                             </div>
                         </div>
-                        <div class="author-img col l6 m12 s12">
-                            <img class="circle" src="../images/test.jpg" />
-                            <div class="author-info center">
-                                <span>Poel</span> <span>Micheal</span>
-                            </div>
-                        </div>
+                        {% endfor %}
                     </div>
                 </div>
                 
@@ -68,12 +64,7 @@
                     <h3>Résumé</h3>
                     <div class="row"></div>
                     <div class="row description justify">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    {{ page.sections.summary }}
                     </div>
                 </div>
                 <!-- reference + ball -->
@@ -159,15 +150,14 @@
                 <div class="row">
                     <h5>Mots clés</h5>
                     <div class="row">
-                        <span class="keyword">Mot clé 1</span> 
-                        <span class="keyword">Mot clé 2</span> 
-                        <span class="keyword">Mot clé 3</span> 
-                        <span class="keyword">Mot clé 4</span> 
+                        {% for tag in page.tags %}
+                            <span class="keyword">tag</span> 
+                        {% endfor %}
                     </div>
                 </div>
                 <div class="row right">
                     <h5>Superviseur</h5>
-                    <div class="row"> <span>Dr Jordan Flush</span></div>
+                    <div class="row"> <span>{{ page.supervisor }}</span></div>
                 </div>                
             </div>
             
