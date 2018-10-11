@@ -62,7 +62,7 @@
                     <h3>Résumé</h3>
                     <div class="row"></div>
                     <div class="row description justify">
-                    {{ page.summary }}
+                    {{ page.summary | textilize }}
                     </div>
                 </div>
                 <!-- reference + ball -->
@@ -116,7 +116,7 @@
                     <h3>Résultats & Perspectives</h3>
                     <div class="row"></div>
                     <div class="row description justify">
-                        {{ page.results }}
+                        {{ page.results | textilize }}
                     </div>
                 </div>
                 
@@ -130,7 +130,7 @@
                     <h3>Partenariats</h3>
                     <div class="row"></div>
                     <div class="row description justify">
-                        {{ page.partners }}
+                        {{ page.partners | textilize }}
                     </div>
                 </div>
             </div>
