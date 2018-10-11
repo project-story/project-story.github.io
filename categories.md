@@ -3,8 +3,7 @@ layout: categories
 title: Project Showcase
 order: 2
 ---
-{% assign nbArticle = "10" %}
-
+<div class="row">
 <a class="category-link grey-text center-align col l3 m6 s12" href="automobile-electronics.html">
 <div class="grey lighten-2 project-article-badge"> {{ site.categories.automobile | size }} </div>
 <div class="category-icon">
@@ -68,5 +67,6 @@ order: 2
 </div>
 <div class="category-title">Elevage</div>
 </a>
+</div>
 
 
