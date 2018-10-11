@@ -5,3 +5,5 @@ order: 2
 ---
 
 content of the file
+
+{% assign nbArticle = 0 %}
