@@ -19,6 +19,9 @@ body{
 .padding-5{ padding: 5px; } 
 .padding-10{ padding: 10px; } 
 
+/* margin */
+.marging-top-10{ margin-top: 10px; }
+
 /**
     @page: index.html
 */
