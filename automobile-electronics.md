@@ -32,7 +32,7 @@ order: 3
 </div>
 <div class="card-action">
 <a href="{{ post.url }}" class="grey-text darken-3">lire</a>
-<a href="#" class="grey-text darken-3">télécharger</a>
+<a href="/downloads/{{ post.download }}" class="grey-text darken-3">télécharger</a>
 </div>
 </div>
 </div>
