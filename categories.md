@@ -74,6 +74,7 @@ order: 2
     <i class="material-icons">power</i>
 </div>
 <div class="category-title">Energie</div>
+</a>
 
 <a class="category-link red-text center-align col l3 m6 s12" href="security.html">
 <div class="grey lighten-2 project-article-badge"> {{ site.categories.security | size }} </div>
