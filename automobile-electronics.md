@@ -1,7 +1,14 @@
 ---
 layout: category
 title: Electronique automobile
-description: La majorité des véhicules qui sont produits de jours intègre de l'électronique afin d'assurer un meilleur confort pour l'utilisateur.
+description: |
+    La majorité des véhicules qui sont produits de jours intègre de l'électronique 
+    afin d'assurer un meilleur confort pour l'utilisateur. Dans une automobile 
+    moderne, l’électronique et l’informatique occupent une place importante. 
+    Des capteurs - éléments qui transforment une grandeur physique (une vitesse 
+    de rotation, une température...) en un signal électrique - informent en permanence 
+    des calculateurs sur le fonctionnement du moteur, le comportement du véhicule 
+    ou les actions du conducteur.
 order: 3
 ---
 
