@@ -37,7 +37,7 @@ order: 3
 </div>
 <div class="row">
 <div class="h-project">Preview</div>
-{% for snaphot in post.snapshot %}
+{% for snapshot in post.snapshot %}
 <div class="col l6 m6 s12">
     <img class="responsive-img" src="/images/{{ snapshot }}" />
 </div>
