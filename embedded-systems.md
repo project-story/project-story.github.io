@@ -33,6 +33,14 @@ order: 5
 {% endfor %}
 </div>
 </div>
+<div class="row">
+<div class="project-h">Preview</div>
+{% for snapshot in post.snapshot %}
+<div class="col l6 m6 s12">
+    <img class="responsive-img" src="/images/{{ snapshot }}" />
+</div>
+{% endfor %}
+</div>
 <div class="card-action">
 <a href="#" class="grey-text darken-3">lire</a>
 <a href="/downloads/{{ post.download }}" class="grey-text darken-3">télécharger</a>
