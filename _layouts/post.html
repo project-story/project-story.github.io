@@ -103,16 +103,15 @@
                             <div>
                                 {% if page.github != null %}
                                 <span>
-                                    <i class="material-icons small prefix">code</i>
                                     <h5 class="inline-block">Github </h5> : 
                                     <span class="keyword grey lighten-2">{{ page.github }}</span>
                                 </span>
                                 {% endif %}
                             </div>
-                            
+                            <div class="row"></div>
                             <div>
                                 {% if page.github != "" %}
-                                <a class="waves-effect waves-light btn-large" href="{{ page.download }}">
+                                <a class="waves-effect waves-light btn grey" href="{{ page.download }}">
                                     <i class="material-icons left">file_download</i>
                                     Télécharger                                
                                 </a>
@@ -174,7 +173,7 @@
         <footer class="center-align">
             <div class="row">Copyright 2018</div>
         </footer>
-        <script src="../js/materialize.min.js"></script>
+        <script src="/js/materialize.min.js"></script>
     </boby>
     <script>
     /* Go back in history */
