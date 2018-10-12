@@ -42,7 +42,7 @@
                     <div class="row">
                         {% for author in page.authors %}
                         <div class="author-img col l6 m12 s12">
-                            <img class="circle" src="{{ page.imgurl }}" />
+                            <img class="circle" src="{{ page.authors_img[forloop.index0] }}" />
                             <div class="author-info center">
                                 <span> {{ author }} </span>
                             </div>
