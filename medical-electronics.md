@@ -1,7 +1,12 @@
 ---
 layout: category
 title: Electronique médicale
-description: The description of medical electronique
+description: |
+    L'électronique médicale comprend l'imagerie médicale d'aide au diagnostic, 
+    les équipements de soins que sont les irradiateurs (par rayons X, par 
+    neutrons, etc.), les équipements destinés à pallier des insuffisances 
+    cardiaques tels que les cardiostimulateurs ou les équipements utilisés 
+    pour combattre d'autres problèmes du muscle cardiaque tels que les défibrillateurs.
 order: 4
 ---
 
@@ -34,9 +39,9 @@ order: 4
 </div>
 <div class="card-action">
 <a href="#" class="grey-text darken-3">lire</a>
-<a href="#" class="grey-text darken-3">télécharger</a>
+<a href="/downloads/{{ post.download }}" class="grey-text darken-3">télécharger</a>
 </div>
-</div>                    
+</div>
 </div>
 </div>
     {% endfor %}

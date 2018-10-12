@@ -1,7 +1,9 @@
 ---
 layout: category
 title: Robotique
-description: The description of robotics
+description: |
+    La robotique est l'ensemble des techniques permettant la conception et la 
+    réalisation de machines automatiques ou de robots.
 order: 6
 ---
 
@@ -34,9 +36,9 @@ order: 6
 </div>
 <div class="card-action">
 <a href="#" class="grey-text darken-3">lire</a>
-<a href="#" class="grey-text darken-3">télécharger</a>
+<a href="/downloads/{{ post.download }}" class="grey-text darken-3">télécharger</a>
 </div>
-</div>                    
+</div>
 </div>
 </div>
     {% endfor %}

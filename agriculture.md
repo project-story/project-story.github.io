@@ -1,7 +1,11 @@
 ---
 layout: category
 title: Agriculture
-description: The description of agriculture
+description: |
+    Le concept de e-agriculture apporte des réponses pertinentent aux besoins du 
+    secteur agricole. Ainsi, il y a une myriade de possibilité de révolutionner 
+    le secteur agricole pour résoudre nos problèmes agro alimentaire et bouster 
+    l'économie locale.
 order: 9
 ---
 
@@ -34,7 +38,7 @@ order: 9
 </div>
 <div class="card-action">
 <a href="#" class="grey-text darken-3">lire</a>
-<a href="#" class="grey-text darken-3">télécharger</a>
+<a href="/downloads/{{ post.download }}" class="grey-text darken-3">télécharger</a>
 </div>
 </div>                    
 </div>

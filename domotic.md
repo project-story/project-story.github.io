@@ -1,7 +1,12 @@
 ---
 layout: category
 title: Domotique
-description: The description of domotic
+description: |
+    Controle de luminaire, de store, ... , la commande à distance d'équipement. 
+    La domotique associe les techniques de l'électronique, de physique du bâtiment, 
+    d'automatisme, de l'informatique et des télécommunications utilisées dans les 
+    bâtiments, plus ou moins « interopérables » et permettant de centraliser le 
+    contrôle des différents systèmes et sous-systèmes de la maison et de l'entreprise.
 order: 7
 ---
 
@@ -34,9 +39,9 @@ order: 7
 </div>
 <div class="card-action">
 <a href="#" class="grey-text darken-3">lire</a>
-<a href="#" class="grey-text darken-3">télécharger</a>
+<a href="/downloads/{{ post.download }}" class="grey-text darken-3">télécharger</a>
 </div>
-</div>                    
+</div>
 </div>
 </div>
     {% endfor %}

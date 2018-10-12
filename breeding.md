@@ -1,7 +1,13 @@
 ---
 layout: category
 title: Elevage
-description: The description of breedding
+description: |
+    Le secteur de l'élevage aussi dynamique que nous la connaisons atteindra un 
+    niveau de rentabilité supérieure en y appliquant les atouts des domaines comme 
+    l'électronique. Monitoring des animaux, détection précoce des 
+    événements de la reproduction et des troubles de la santé des animaux, assistance 
+    dans la reproduction et contrôle des naissances sont autant d'aspect qui peuvent 
+    être contrôler.
 order: 10
 ---
 

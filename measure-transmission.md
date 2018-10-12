@@ -1,7 +1,10 @@
 ---
 layout: category
 title: Mesure & Transmission
-description: The description of measure and transmission
+description: |
+    La mesure permet d'apprécier une grandeur ou un phénomène physique. Il est alors 
+    nécessaire d'avoir accès à l'information quelque soit le lieu où cette derniere 
+    est disponible. C'est socle même de la prise de décision en automatique.
 order: 8
 ---
 {% assign nbArticle = 0 %}
@@ -33,9 +36,9 @@ order: 8
 </div>
 <div class="card-action">
 <a href="#" class="grey-text darken-3">lire</a>
-<a href="#" class="grey-text darken-3">télécharger</a>
+<a href="/downloads/{{ post.download }}" class="grey-text darken-3">télécharger</a>
 </div>
-</div>                    
+</div>
 </div>
 </div>
     {% endfor %}

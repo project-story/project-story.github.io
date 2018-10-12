@@ -1,7 +1,8 @@
 ---
 layout: category
 title: Systèmes embarqués
-description: The description of embedded system
+description: |
+    un système électronique et informatique autonome, souvent temps réel, spécialisé dans une tâche bien précise.
 order: 5
 ---
 
@@ -34,9 +35,9 @@ order: 5
 </div>
 <div class="card-action">
 <a href="#" class="grey-text darken-3">lire</a>
-<a href="#" class="grey-text darken-3">télécharger</a>
+<a href="/downloads/{{ post.download }}" class="grey-text darken-3">télécharger</a>
 </div>
-</div>                    
+</div>
 </div>
 </div>
     {% endfor %}
