@@ -30,7 +30,7 @@
                 
                 <!-- reference + ball -->
                 <div class="reference"></div>
-                <span class="level-ball amber z-depth-1 center grey-text text-darken-3 hide-on-med-and-down">
+                <span class="level-ball amber z-depth-1 center grey-text text-darken-3 hide-on-med-and-down pulse">
                     <i class="material-icons">book</i>
                 </span>
                  <!-- end -->
@@ -153,19 +153,6 @@
             <div class="row">Copyright 2018</div>
         </footer>
         <script src="../js/materialize.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-                crossorigin="anonymous">
-        </script>
-        <script>
-            $(document).ready(function(){
-                $(".reference").hover(function(){
-                    $(this).children($(".level-ball")).addClass("pulse");
-                }, function(){
-                    $(this).children($(".level-ball")).removeClass("pulse");
-                })
-            });
-        </script>
     </boby>
     <script>
     /* Go back in history */
