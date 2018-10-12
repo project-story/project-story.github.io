@@ -76,7 +76,7 @@ order: 2
 <div class="category-title">Energie</div>
 </a>
 
-<a class="category-link red-text center-align col l3 m6 s12" href="security.html">
+<a class="category-link cyan-text center-align col l3 m6 s12" href="security.html">
 <div class="grey lighten-2 project-article-badge"> {{ site.categories.security | size }} </div>
 <div class="category-icon">
     <i class="material-icons">security</i>
