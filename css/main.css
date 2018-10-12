@@ -14,6 +14,7 @@ body{
 .reference{ position:relative; }
 .shift-right{ padding-right: 10em; }
 .justify{ text-align: justify; }
+.inline-block{ display: inline-block; }
 
 /* padding */
 .padding-5{ padding: 5px; } 

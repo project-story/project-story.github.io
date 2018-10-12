@@ -98,6 +98,29 @@
                     <div class="row description justify">
                         {{ page.section["results"] | textilize }}
                     </div>
+                    <div class="row">
+                        <div>
+                            <div>
+                                {% page.github != null %}
+                                <span>
+                                    <i class="material-icons medium prefix">code</i>
+                                    <h5 class="inline-block">Github </h5> : 
+                                    <span class="keyword grey lighten-2">{{ page.github }}</span>
+                                </span>
+                                {% endif %}
+                            </div>
+                            
+                            <div>
+                                {% page.github != null %}
+                                <span>
+                                    <i class="material-icons medium prefix">file_download</i>
+                                    <h5 class="inline-block">Télécharger </h5> : 
+                                    <span class="keyword grey lighten-2">{{ page.download }}</span>
+                                </span>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 
                 <!-- reference + ball -->
