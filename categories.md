@@ -67,6 +67,37 @@ order: 2
 </div>
 <div class="category-title">Elevage</div>
 </a>
+
+<a class="category-link red-text center-align col l3 m6 s12" href="energy.html">
+<div class="grey lighten-2 project-article-badge"> {{ site.categories.energy | size }} </div>
+<div class="category-icon">
+    <i class="material-icons">power</i>
+</div>
+<div class="category-title">Energie</div>
+
+<a class="category-link red-text center-align col l3 m6 s12" href="security.html">
+<div class="grey lighten-2 project-article-badge"> {{ site.categories.security | size }} </div>
+<div class="category-icon">
+    <i class="material-icons">security</i>
+</div>
+<div class="category-title">Sécurité</div>
+</a>
+
+<a class="category-link yellow-text text-darken-2 center-align col l3 m6 s12" href="renewableenergy.html">
+<div class="grey lighten-2 project-article-badge"> {{ site.categories.renewableenergy | size }} </div>
+<div class="category-icon">
+    <i class="material-icons">wb_sunny</i>
+</div>
+<div class="category-title">Energie Renouvelable</div>
+</a>
+
+<a class="category-link brown-text center-align col l3 m6 s12" href="iot.html">
+<div class="grey lighten-2 project-article-badge"> {{ site.categories.iot | size }} </div>
+<div class="category-icon">
+    <i class="material-icons">wifi</i>
+</div>
+<div class="category-title">Internet des Objets</div>
+</a>
 </div>
 
 
