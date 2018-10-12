@@ -76,10 +76,10 @@
                     <div class="row"></div>
                     <div class="row">
                         {% for url in page.snapshot %}
-                        <div class="col l6 m12 s12">
+                        <div class="col l6 m12 s12 marging-top-10">
                             <div class="z-depth-1">
                                 <img class="responsive-img" src="/images/{{ url }}" />
-                                <div class="padding-5">{{ page.snapcomment[forloop.index0] }}</div>
+                                <div class="padding-5">{{ page.snapcomment[forloop.index0] | capitalize }}</div>
                             </div>
                         </div>
                         {% endfor %}
