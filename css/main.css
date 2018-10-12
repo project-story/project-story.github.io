@@ -27,6 +27,15 @@ body{
     @page: index.html
 */
 
+.pin{
+    display: inline-block;
+    position:absolute;
+    top:-15px;
+    left:calc(50% - 15px);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
 
 /**
     @page: categories
