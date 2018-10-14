@@ -151,14 +151,14 @@
                     <div class="row"> <span>{{ page.supervisor }}</span></div>
                 </div>                
             </div>
-            
+            {% if page.fbcomment %}
             <div class="row center">
                 {% include fb-like.html %}
             </div>
             <div class="row">
                 {% include fb-comment.html %}
             </div>
-            
+            {% endif %}
             <!-- end of post -->
             <div class="row"></div>
             <div class="divider"></div>
